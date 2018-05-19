@@ -1,4 +1,4 @@
-package com.ms.blockchainsession;
+package com.blockchain;
 
 import java.util.ArrayList;
 import java.util.Arrays;
