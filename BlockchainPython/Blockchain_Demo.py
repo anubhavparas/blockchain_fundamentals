@@ -134,17 +134,17 @@ class Blockchain:
 # Demo
 
 if __name__ == '__main__':
-    my_block_chain = Blockchain("MSCoin", 3, 75)
-    my_block_chain.create_transaction(Transaction("Rob", "Sam", 10))
-    my_block_chain.create_transaction(Transaction("Sam", "David", 40))
+    my_block_chain = Blockchain("APCoin", 3, 75)
+    my_block_chain.create_transaction(Transaction("Jeff", "Salil", 10))
+    my_block_chain.create_transaction(Transaction("Alisha", "Dev", 40))
 
     print("Blockchain after creating transactions. \n" + str(my_block_chain))
 
-    my_block_chain.mine_pending_transactions("Rob")
+    my_block_chain.mine_pending_transactions("Salil")
     print("\n\nBlockchain after mining. \n" + str(my_block_chain))
 
-    my_block_chain.mine_pending_transactions("Sam")
+    my_block_chain.mine_pending_transactions("Salil")
     print("\n\nBlockchain after mining second time. \n" + str(my_block_chain))
 
-    print("\n\nBalance of Rob\n" + str(my_block_chain.get_balance_of_node("Rob")))
+    print("\n\nBalance of Salil\n" + str(my_block_chain.get_balance_of_node("Salil")))
 
