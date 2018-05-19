@@ -10,8 +10,8 @@
 ### Using IPython notebook
 - Open IPython or Jupyter notebook.
 - Intall it if you dont have it: 
-  -- 1) *[Anaconda](https://www.anaconda.com/download/)*, or 
-  -- 2) *[Install Jupyter](http://jupyter.org/install)*
+  - 1) *[Anaconda](https://www.anaconda.com/download/)*, or 
+  - 2) *[Install Jupyter](http://jupyter.org/install)*
 - Launch the notebook.
 - Click on **New Notebook**
 - Paste the python code in the cell and click on run button (or import any of the python files **Blockchain_Demo.py** or **Blockchain_Demo.ipynb** in **Jupyter notebook** and run it)
