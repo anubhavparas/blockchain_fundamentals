@@ -9,7 +9,7 @@
 
 ### Using IPython notebook
 - Open IPython or Jupyter notebook.
-- Intall it if you dont have it: 
+- Install it if you dont have it: 
   - 1) *[Anaconda](https://www.anaconda.com/download/)*, or 
   - 2) *[Install Jupyter](http://jupyter.org/install)*
 - Launch the notebook.
