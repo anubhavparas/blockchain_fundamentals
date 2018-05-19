@@ -1,4 +1,4 @@
-package com.ms.blockchain;
+package com.blockchain;
 
 import java.util.Date;
 import java.util.List;
