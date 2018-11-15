@@ -92,7 +92,7 @@ class Block:
 ##########################################################################
 
 class Blockchain:
-    def __init__(self, name = 'MSCoin', difficulty = 3, reward_for_mining = 75):
+    def __init__(self, name = 'APCoin', difficulty = 3, reward_for_mining = 75):
         self.name = name
         self.chain = [Block([Transaction("GenesisSender", "GenesisReceiver", 0)])]
         self.difficulty = difficulty
