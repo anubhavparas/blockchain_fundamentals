@@ -1,2 +1,2 @@
 # blockchain_fundamentals
-Creating dummy blockchains in JAVA and Python.
+Creating dummy blockchains in C++, JAVA and Python.
